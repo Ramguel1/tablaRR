@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabla </title>
+<link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="text-center">
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid text-center">
+            <h1 class=" navbar-brand m-auto">tabla colores</h1>
+        </div>
+    </nav>
+    <center>
+<h4 for="filas">Filas:</h4>
+<input type="range" id="filas" name="filas" min="1" max="50" value="1">
+<div id="resultado1">1</div>
+<br><br>
+
+<h4 for="columnas">Columnas</h4>
+<input type="range" id="columnas" name="columnas" min="1" max="50" value="1">
+<div id="resultado2">1</div>
+<br><br>
+
+<label for="colorPar">Color 1</label>
+<input type="color" id="par" name="par" >
+<br><br>
+
+<label for="impar">Color 2</label>
+<input type="color" id="impar" name="impar" >
+<br><br>
+
+<div id="resultado3"></div>
+</center>
+<script src="app.js">
+    
+</script>
+
+</body>
+</html>
